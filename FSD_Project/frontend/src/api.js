@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080"
+  baseURL: "https://lost-and-found-1-bt2p.onrender.com/api/items"
 });
 
 /** Turn stored paths like "/uploads/..." into absolute URLs for <img src> on port 3000 */
